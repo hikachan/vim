@@ -1,4 +1,9 @@
-set visualbell t_vb=
+set expandtab
+set tabstop=2
+set shiftwidth=2
+set autoindent
+set smartindent
+
 inoremap <silent> jj <ESC>
 
 " Note: Skip initialization for vim-tiny or vim-small.
@@ -29,12 +34,13 @@ NeoBundle 'https://github.com/Shougo/neocomplcache.git'
 NeoBundle 'https://github.com/Shougo/unite.vim.git'
 NeoBundle 'https://github.com/Shougo/vimshell.git'
 NeoBundle 'Shougo/vimproc'
+NeoBundle 'tpope/vim-rails'
 
  call neobundle#end()
 
- " Required:
+ " required:
  filetype plugin indent on
 
- " If there are uninstalled bundles found on startup,
+ " if there are uninstalled bundles found on startup,
  " this will conveniently prompt you to install them.
  NeoBundleCheck
