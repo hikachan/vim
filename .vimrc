@@ -30,13 +30,13 @@ inoremap <silent> jj <ESC>
  " Note: neobundle の設定を.gvimrcに書かないこと！
 
  " ここに追加したいプラグインを追加します。 
-NeoBundle 'https://github.com/Shougo/neocomplcache.git'
 NeoBundle 'https://github.com/Shougo/unite.vim.git'
-NeoBundle 'https://github.com/Shougo/vimshell.git'
 NeoBundle 'Shougo/vimproc'
 NeoBundle 'tpope/vim-rails'
+NeoBundle 'vim-ruby/vim-ruby'
+NeoBundle 'terryma/vim-multiple-cursors'
 
- call neobundle#end()
+call neobundle#end()
 
  " required:
  filetype plugin indent on
